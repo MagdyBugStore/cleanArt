@@ -1,5 +1,5 @@
-import 'package:ny_times_app/src/shared/domain/entities/language_enum.dart';
-import 'package:ny_times_app/src/core/utils/constant/local_storage_constants.dart';
+import 'package:cleanart/src/shared/domain/entities/language_enum.dart';
+import 'package:cleanart/src/core/utils/constant/local_storage_constants.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class AppSharedPrefs {

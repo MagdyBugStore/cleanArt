@@ -2,10 +2,10 @@ import 'dart:convert';
 
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:ny_times_app/src/core/network/logger_interceptor.dart';
-import 'package:ny_times_app/src/core/utils/constant/network_constant.dart';
-import 'package:ny_times_app/src/core/helper/helper.dart';
-import 'package:ny_times_app/src/core/utils/log/app_logger.dart';
+import 'package:cleanart/src/core/network/logger_interceptor.dart';
+import 'package:cleanart/src/core/utils/constant/network_constant.dart';
+import 'package:cleanart/src/core/helper/helper.dart';
+import 'package:cleanart/src/core/utils/log/app_logger.dart';
 
 class DioNetwork {
   static late Dio appAPI;
@@ -78,7 +78,7 @@ class DioNetwork {
       onResponse: (response, handler) async {
         if ("${(response.data["code"] ?? "0")}" != "0") {
           return handler.resolve(response);
-          // return handler.reject(DioError(requestOptions: response.requestOptions, response: response, error: response, type: DioErrorType.response));
+          // return handler.reject(DioError(requestOptions: response.requestOptions, response: response, error: response, type: DioExceptionType .response));
         } else {
           return handler.next(response);
         }

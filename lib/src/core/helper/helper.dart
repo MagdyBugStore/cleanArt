@@ -1,9 +1,8 @@
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:ny_times_app/src/shared/data/data_sources/app_shared_prefs.dart';
-import 'package:ny_times_app/src/shared/domain/entities/language_enum.dart';
-import 'package:ny_times_app/src/core/utils/constant/app_constants.dart';
-import 'package:ny_times_app/src/core/utils/injections.dart';
-
+import 'package:cleanart/src/shared/data/data_sources/app_shared_prefs.dart';
+import 'package:cleanart/src/shared/domain/entities/language_enum.dart';
+import 'package:cleanart/src/core/utils/constant/app_constants.dart';
+import 'package:cleanart/src/core/utils/injections.dart';
 
 class Helper {
   /// Get language

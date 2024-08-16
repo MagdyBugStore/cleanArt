@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:ny_times_app/src/core/styles/app_text_style.dart';
+import 'package:cleanart/src/core/styles/app_text_style.dart';
 
 // import 'package:google_fonts/google_fonts.dart';
 

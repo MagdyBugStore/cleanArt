@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:ny_times_app/src/features/articles/domain/models/media_model.dart';
+import 'package:cleanart/src/features/articles/domain/models/media_model.dart';
 
 part 'article_model.g.dart';
 
@@ -53,16 +53,13 @@ class ArticleModel {
       this.media,
       this.etaId});
 
-  factory ArticleModel.fromJson(json) =>
-      _$ArticleModelFromJson(json);
+  factory ArticleModel.fromJson(json) => _$ArticleModelFromJson(json);
 
   toJson() => _$ArticleModelToJson(this);
 
   static List<ArticleModel> fromJsonList(List? json) {
     return json?.map((e) => ArticleModel.fromJson(e)).toList() ?? [];
   }
-
-
 
   @override
   bool operator ==(Object other) {
@@ -78,5 +75,4 @@ class ArticleModel {
 
     return false;
   }
-
 }

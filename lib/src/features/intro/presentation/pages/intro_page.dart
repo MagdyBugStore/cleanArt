@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:ny_times_app/src/core/helper/helper.dart';
-import 'package:ny_times_app/src/core/router/app_route_enum.dart';
-import 'package:ny_times_app/src/core/styles/app_colors.dart';
+import 'package:cleanart/src/core/helper/helper.dart';
+import 'package:cleanart/src/core/router/app_route_enum.dart';
+import 'package:cleanart/src/core/styles/app_colors.dart';
 
 class IntroPage extends StatefulWidget {
   const IntroPage({Key? key}) : super(key: key);

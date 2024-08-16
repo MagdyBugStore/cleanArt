@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "ny_times_app" "\0"
+            VALUE "FileDescription", "cleanart" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "ny_times_app" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "ny_times_app.exe" "\0"
-            VALUE "ProductName", "ny_times_app" "\0"
+            VALUE "InternalName", "cleanart" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "cleanart.exe" "\0"
+            VALUE "ProductName", "cleanart" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

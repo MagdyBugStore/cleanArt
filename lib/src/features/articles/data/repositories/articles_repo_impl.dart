@@ -1,10 +1,10 @@
 import 'package:dartz/dartz.dart';
-import 'package:ny_times_app/src/core/network/error/exceptions.dart';
-import 'package:ny_times_app/src/core/network/error/failures.dart';
-import 'package:ny_times_app/src/features/articles/data/data_sources/remote/articles_impl_api.dart';
-import 'package:ny_times_app/src/features/articles/domain/models/article_model.dart';
-import 'package:ny_times_app/src/features/articles/domain/models/articles_params.dart';
-import 'package:ny_times_app/src/features/articles/domain/repositories/abstract_articles_repository.dart';
+import 'package:cleanart/src/core/network/error/exceptions.dart';
+import 'package:cleanart/src/core/network/error/failures.dart';
+import 'package:cleanart/src/features/articles/data/data_sources/remote/articles_impl_api.dart';
+import 'package:cleanart/src/features/articles/domain/models/article_model.dart';
+import 'package:cleanart/src/features/articles/domain/models/articles_params.dart';
+import 'package:cleanart/src/features/articles/domain/repositories/abstract_articles_repository.dart';
 
 class ArticlesRepositoryImpl extends AbstractArticlesRepository {
   final ArticlesImplApi articlesApi;

@@ -4,19 +4,19 @@ String handleDioError(DioError error) {
   String errorDescription = "";
 
   switch (error.type) {
-    case DioErrorType.cancel:
+    case DioExceptionType.cancel:
       errorDescription = "Request to API server was cancelled";
       break;
-    case DioErrorType.connectionTimeout:
+    case DioExceptionType.connectionTimeout:
       errorDescription = "Connection timeout with API server";
       break;
-    case DioErrorType.connectionTimeout:
+    case DioExceptionType.connectionTimeout:
       errorDescription = "Internet Connection Problem.";
       break;
-    case DioErrorType.receiveTimeout:
+    case DioExceptionType.receiveTimeout:
       errorDescription = "Receive timeout in connection with API server";
       break;
-    case DioErrorType.badResponse:
+    case DioExceptionType.badResponse:
       {
         if (error.response?.data['code'] != null &&
             (error.response?.data['code'] ?? "0") != "0") {
@@ -74,16 +74,16 @@ String handleDioError(DioError error) {
         break;
       }
 
-    case DioErrorType.sendTimeout:
+    case DioExceptionType.sendTimeout:
       errorDescription = "Send timeout in connection with API server";
       break;
-    case DioErrorType.badCertificate:
+    case DioExceptionType.badCertificate:
       // TODO: Handle this case.
       break;
-    case DioErrorType.connectionError:
+    case DioExceptionType.connectionError:
       // TODO: Handle this case.
       break;
-    case DioErrorType.unknown:
+    case DioExceptionType.unknown:
       // TODO: Handle this case.
       break;
   }

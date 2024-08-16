@@ -1,5 +1,5 @@
-import 'package:ny_times_app/main.dart';
-import 'package:ny_times_app/src/core/translations/l10n.dart';
+import 'package:cleanart/main.dart';
+import 'package:cleanart/src/core/translations/l10n.dart';
 
 enum LanguageEnum {
   ar, // Arabic
